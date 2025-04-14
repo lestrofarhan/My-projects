@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saylani-Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="image">
+        <img
+          class="logo-image"
+          src="https://forms.saylaniwelfare.com/static/media/logo.22bf709605809177256c.png"
+          alt=""
+        />
+        <div class="mid">
+          <div class="icon1">
+            <a
+              class="icons"
+              href="https://www.facebook.com/saylani.smit"
+              target="_blank"
+              ><img
+                class="icon"
+                src="https://forms.saylaniwelfare.com/static/media/facebook.0d22b4d986cc357e30b7.png"
+                alt="facebook icon"
+              />
+            </a>
+            <a
+              class="icons"
+              href="http://instagram.com/saylanimassittraining"
+              target="_blank"
+              ><img
+                class="icon insta"
+                src="https://forms.saylaniwelfare.com/static/media/instagram.1506b398fa46f19bb324.png"
+                alt="instagram icon"
+              />
+            </a>
+            <a
+              class="icons"
+              href="https://www.youtube.com/@SaylaniMassITTraining"
+              target="_blank"
+              ><img
+                class="icon"
+                src="https://forms.saylaniwelfare.com/static/media/youtube.25bcb63515915fad0160.png"
+                alt="youtube icon"
+              />
+            </a>
+          </div>
+
+          <h1 class="heading">Registration Form-SMIT</h1>
+          <a href="https://student.saylaniwelfare.com/" target="_blank"
+            ><p>
+              <img src="/assets/user-graduate-solid.svg" alt="" />Student portal
+            </p></a
+          >
+        </div>
+        <p>Services-Education-Registration</p>
+      </div>
+      <table>
+        <tr>
+          <td>Registration</td>
+          <td>Download ID Card</td>
+          <td>Results</td>
+        </tr>
+      </table>
+    </header>
+
+    <main>
+      <form action="https://saylaniwelfare.com/">
+        <div class="upper-boxes">
+          <div>
+            <label for="country">Select Country</label>
+            <select name="country" id="country" required>
+              <option value="0">Select Your Country</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="Turkey">Turkey</option>
+            </select>
+          </div>
+          <div>
+            <label for="city">Select City</label>
+            <select name="city" id="city" required>
+              <option value="0">Select Your City</option>
+              <option value="Karachi">Karachi</option>
+              <option value="Islamabad">Islamabad</option>
+              <option value="Lahore">Lahore</option>
+              <option value="Multan">Multan</option>
+              <option value="Peshawar">Peshawar</option>
+            </select>
+          </div>
+          <div>
+            <label for="course">Select Course or Event</label>
+            <select name="course-selected" id="course" required>
+              <option value="0">Select Course or Event</option>
+              <option value="Modern Web & Mobile Applicataion">
+                Modern Web & Mobile Applicataion
+              </option>
+              <option value="Graphic Desighning">Graphic Desighning</option>
+              <option value="Digital Marketing">Digital Marketing</option>
+              <option value="Generative AI">Generative AI</option>
+              <option value="Data Science & AI">Data Science & AI</option>
+            </select>
+          </div>
+          <div>
+            <label for="proficiency">Select your computer proficiency</label>
+            <select name="computer-proficiency" id="proficiency" required>
+              <option value="0">Select your computer proficiency</option>
+              <option value="None">None</option>
+              <option value="Beginner">Beginner</option>
+              <option value="Intermediate">Intermediate</option>
+              <option value="Advance">Advance</option>
+            </select>
+          </div>
+          <div>
+            <label for="name">Full name</label>
+            <input
+              type="text"
+              name="full-name"
+              id="name"
+              required
+              placeholder="Full name"
+            />
+          </div>
+          <div>
+            <label for="father-name">Father name</label>
+            <input
+              type="text"
+              name="father-name"
+              id="father-name"
+              required
+              placeholder="Full name"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Email"
+            />
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              required
+              placeholder="phone"
+              maxlength="11"
+            />
+          </div>
+          <div>
+            <label for="CNIC">CNIC</label>
+            <input
+              type="number"
+              name="CNIC"
+              id="CNIC"
+              required
+              placeholder="CNIC"
+              max="13"
+            />
+          </div>
+          <div>
+            <label for="Father's-CNIC">Father's CNIC (optional)</label>
+            <input
+              type="number"
+              name="Father's-CNIC"
+              id="Father's-CNIC"
+              placeholder="Father's CNIC"
+              max="13"
+            />
+          </div>
+          <div>
+            <label for="DOB">Date Of Birth</label>
+            <input type="date" name="Date-of-birth" id="DOB" required />
+          </div>
+          <div>
+            <label for="Gender">Select Gender</label>
+            <select name="Gender" id="Gender" required>
+              <option value="0">Select Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </div>
+        </div>
+        <div class="lower-boxes">
+          <div>
+            <label for="Address">Address</label>
+            <input
+              type="text"
+              name="Address"
+              id="Address"
+              required
+              placeholder="Address"
+            />
+          </div>
+          <div>
+            <label for="Last-Qualification">Last Qualification</label>
+            <select name="Last-Qualification" id="Last-Qualification" required>
+              <option value="0">Last Qualification</option>
+              <option value="Matric">Matric</option>
+              <option value="Intermediate">Intermediate</option>
+              <option value="Undergraduate">Undergraduate</option>
+              <option value="Graduate">Graduate</option>
+              <option value="Masters">Masters</option>
+              <option value="PHD">PHD</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="Laptop-available">Do you have a Laptop?</label>
+            <select name="Laptop-available" id="Laptop-available" required>
+              <option value="0">Do you have a Laptop?</option>
+              <option value="Matric">Yes</option>
+              <option value="Intermediate">No</option>
+            </select>
+          </div>
+        </div>
+        <div class="last-part">
+          <div>
+            <label for="picture">Picture</label>
+            <input type="file" id="picture" name="picture" />
+          </div>
+          <div class="picture">
+            <label for="picture" class="upload">+Upload</label>
+            <div class="picture-requirements">
+              <p>
+                With white or blue background <br />
+                File size must be less than 1MB<br />
+                File type: jpg, jpeg, png<br />
+                Upload your recent passport size picture<br />
+                Your Face should be clearly visible without any Glasses
+              </p>
+            </div>
+          </div>
+          <div class="terms">
+            <ol>
+              <li>
+                I hereby, solemnly declare that the data and facts mentioned
+                herein are true and correct to the best of my knowledge.
+                Further, I will abide by all the established and future
+                regulations and policies of SWIT
+              </li>
+              <li>
+                I hereby accept the responsibilities of good conduct and
+                guarantee that I will not be involved in any other activity,
+                political or ethical, but learning during my stay in the
+                program.
+              </li>
+              <li>
+                Defiance will render my admission canceled at any point in time.
+              </li>
+              <li>
+                Upon completion, of the course, I will complete the required
+                project by SWIT.
+              </li>
+              <li>
+                It's mandatory for female students to wear abaya/hijab in the
+                class
+              </li>
+            </ol>
+          </div>
+          <button>SUBMIT</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

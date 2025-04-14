@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+nav{
+    width: 100vw;
+    height:100px;
+    background-color: #131921;
+}
+nav>div:first-child{
+    width: 98%;
+    margin: auto;
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+}
+nav>div:last-child{
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    background-color: #232F3E;
+}
+.amazon{
+    height: 34px;
+    width: 98px;
+    background-image: url(./Assets/icons.png);
+    background-position: -9px -125px;
+    background-size: 350px;
+}
+.location{
+    background-image: url(./Assets/icons.png);
+    background-size: 350px;
+    background-position: -71px -378px;
+    width: 15px;
+    height: 18px;
+    margin-top: 8px;
+}
+.search-icon{
+    background-image: url(./Assets/icons.png);
+    background-size: 350px;
+    background-position: -10px -290px;
+    width: 21px;
+    height: 21px;
+}
+.dropdown-icon{
+    background: url(./Assets/icons.png) no-repeat -219px -679px;
+    transform: rotate(90deg);
+	width: 12px;
+	height: 18px;
+}
+.cart-icon{
+    background: url(./Assets/icons.png) no-repeat -436px -674px;
+	width: 82px;
+	height: 56px;
+}
+.setting-icon{
+    background: url(./Assets/icons.png) no-repeat -344px -510px;
+	width: 35px;
+	height: 28px;
+    scale: 0.5;
+}

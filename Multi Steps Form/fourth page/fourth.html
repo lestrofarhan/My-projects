@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review-Page</title>
+  </head>
+  <body>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      table {
+        background-color: #cccccc;
+        font-size: 25px;
+      }
+      form {
+        font-size: 18px;
+      }
+      input {
+        width: 520px;
+      }
+      td {
+        padding: 5px 5px;
+      }
+      .button {
+        width: 150px;
+      }
+      .crcle {
+        width: 15px;
+      }
+      select-selected {
+        user-select: none;
+      }
+    </style>
+    <table>
+      <tr>
+        <td style="background-color: #a4dd9e">Step 1: Account</td>
+        <td style="background-color: #a4dd9e">Step 2: Details</td>
+        <td style="background-color: #72a3de">Step 3: Your Review</td>
+      </tr>
+    </table>
+    <div class="form">
+      <form action="../thankyoupage/thankyou.html">
+        <fieldset>
+          <legend>Your Review:</legend>
+          <br />
+          <label for="promotion">How did you hear about us?</label>
+          <select name="promotion" id="promotion">
+            <option value="0" selected>select your option</option>
+            <option value="through-youtube">Through Youtube</option>
+            <option value="throuh-instagram">Throuh Instagram</option>
+            <option value="through-friend">Through Friend</option>
+          </select>
+          <br />
+          <br />
+          <p>Would you visit again?</p>
+          <input
+            type="radio"
+            id="yes"
+            value="yes"
+            name="visit-again"
+            class="crcle"
+          />
+          <label for="yes">Yes</label>
+          <input
+            type="radio"
+            id="no"
+            value="no"
+            name="visit-again"
+            class="crcle"
+          />
+          <label for="no">No</label>
+          <input
+            type="radio"
+            id="maybe"
+            value="maybe"
+            name="visit-again"
+            class="crcle"
+          />
+          <label for="maybe">Maybe</label>
+          <br />
+          <br />
+          <label for="Comments">Comments:</label><br />
+          <textarea
+            name="comments"
+            id="comments"
+            placeholder="Enter your comments here..."
+            rows="6"
+            cols="65 "
+          ></textarea>
+          <br /><br />
+          <label for="documents">Documents:</label><br />
+          <input type="file" name="documents" />
+          <br />
+          <br />
+          <input
+            type="checkbox"
+            class="crcle"
+            id="signup-access"
+            value="allowed"
+            name="signup-access"
+            checked
+          />
+          <label for="signup-access">Sign up me for email updates</label>
+          <br />
+          <br />
+          <a href="../first page/index.html"
+            ><img class="button" src="../assets/back.webp" alt=""
+          /></a>
+          <input
+            class="button"
+            type="image"
+            src="../assets/ef95ad73-9470-45da-bf66-c98fddeb4189.webp"
+          />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
