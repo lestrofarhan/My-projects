@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy ;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100px ;
+    width: 100% ;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 30px ;
+}
+#nav1{
+    
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    display: flex;
+    cursor: pointer;
+}
+#nav1:hover{
+    color: white;
+    background-color: black;
+}
+nav h3{
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 3px;
+}
+.material-icons{
+    font-size: 18px;
+}
+nav h1{
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+nav button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#login:hover{
+    color: white;
+    background-color: black;
+}
+#signup{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+#signup:hover{
+    color: orangered;
+    background-color: white;
+    border: 1px solid orangered;
+    padding: 4px 9px;
+}
+#bgtxt{
+    position: absolute;
+    font-size: 135px ;
+    text-transform: uppercase;
+    word-spacing: 23px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+}
+.mainimg{
+    object-fit: cover;
+    object-position: top;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50% ,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50% ,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50% ,-50%) rotate(-10deg);
+}
+#btmtext{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    justify-content: space-between;
+}
+#btm-left{
+    display: flex;
+    position: absolute;
+    top: 93%;
+    left: 2%;
+}
+#btm-right{
+    display: flex;
+    position: absolute;
+    top: 93%;
+    right: 2%;
+}
+#medialinks{
+    display: flex;
+    position: absolute;
+    top: 88%;
+    right: 3%;
+    padding-right: 3px;
+}
+.mediaimg{
+    padding: 0px 0px;
+}
+#downarow{
+    font-size: 40px;
+    position: absolute;
+    top: 99%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 70px;
+    padding: 40px 40px;
+    cursor: pointer;
+}
+#downarow:hover{
+    color: white;
+    background-color: black;
+}

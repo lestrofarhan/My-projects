@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 68%;
+    width: 100%;
+}
+#nav h1{
+    font-size: 145px;
+    color: #1E1E21;
+    padding: 70px 50px 0px 60px;
+    font-weight: 600;
+    line-height: 135px;
+    letter-spacing: -7px;
+
+}
+#menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 35px 30px ;
+}
+#menu h3{
+    background-color: #1E1E21;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 70px;
+    padding: 17px 27px;
+    margin-left: 9px;
+}
+#extra{
+    font-size: 31px;
+    color: #1E1E21;
+    display: flex;
+    margin-top: 22px;
+    margin-left: 67px;
+    margin-right: 67px;
+    justify-content: space-between;
+}
+#heroimg{
+    height: 90%;
+    width: 100%;
+    background-color: #B26612;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp);
+    background-size: cover;
+    background-position: top;
+}
+#about{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #1E1E21 solid 2px;
+
+}
+#abt1{
+    color: #1E1E21;
+    width: 60%;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 82px ;
+    letter-spacing: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 65px 70px 75px;
+}
+#abt2{
+    padding-left: 45px;
+    color: #1E1E21;
+    font-size: 30px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-left: 2px solid #1E1E21;
+    padding-right: 300px;
+}
+#abt2>h4{
+    padding-bottom: 400px;
+}
+#e234>i{
+    color: white;
+    background-color: #1E1E21;
+    font-size: 27px;
+    font-weight: 400;
+    border: 2px solid #1E1E21;
+    border-radius : 50px;
+    padding : 7px;
+    margin-left : 4px;
+    margin-right : 4px;
+}
+#7e6{
+    border-bottom: solid #1E1E21 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
