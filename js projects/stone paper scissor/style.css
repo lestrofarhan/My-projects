@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+} 
+body *{
+    animation: alpha 1s ease;
+}
+.icons {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.txt{
+    margin-top: 220px;
+    font-size: 37px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+#rock{
+    background-image: url(./assets/rock.png);  
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;    cursor: pointer;
+    transition: all 0.2s ease-in;
+    
+}
+#rock:hover{
+    outline: 6px solid #FE2BF1;
+}
+#paper{
+    background-image: url(./assets/paper.png);  
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+#paper:hover{
+    outline: 6px solid #00DFBA;
+}
+#scissor{
+    background-image: url(./assets/scissor.png);  
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+#scissor:hover{
+    outline: 6px solid #0C7CEB;
+}
+
+#rock h3{
+ color: #FE2BF1;
+}
+#paper h3{
+ color: #00DFBA;
+}
+#scissor h3{
+ color: #0C7CEB;
+}
+.score{
+    color: white;
+    display: flex;
+    font-size: 140px;
+    gap: 20px;
+    margin-top: 90px;
+}
+
+.score div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score h3{
+    font-size: 30px;
+    animation: none;
+}
+
+#result{
+    margin-top:40px ;
+    height: 60px;
+    width: auto;
+    padding: 0px 20px;
+    color:white;
+    background-color: #26006E;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    border-radius: 14px;
+}
+
+@keyframes alpha {
+    from{
+        opacity: 0;
+        scale: 0.9;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        h1{
+            font-size: 40px;
+        }
+        #stopwatch{
+            display: flex;
+            font-size: 50px;
+        }
+        btns{
+            display: flex;
+            gap: 5px;
+        }
+        button{
+            height: 30px;
+            width: 60px;
+            cursor: pointer;
+        }
+        #second{
+            color:green
+        }
+        #minute{
+            color: royalblue;
+        }
+        #hour{
+            color: red;
+        }
+        
+    </style>
+
+
+        <h1>STOP WATCH</h1>
+
+        <div id="stopwatch">
+            <p id="hour">00</p>:
+            <p id="minute">00</p>:
+            <p id="second">00</p>
+        </div>
+        <div>
+            <btns>
+                <button id="start" onclick="start()">start</button>
+                <button id="stop" onclick="stop()">stop</button>
+                <button id="reset"onclick="reset()">reset</button>
+            </btns>
+        </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
